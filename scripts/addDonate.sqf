@@ -3,9 +3,9 @@ if (side player == civilian) exitWith{};
 _group = missionNamespace getVariable "groupNamesByCallsigns" get (groupID (group player));
 
 _donateMap = createHashMapFromArray [
-	["76561198316727609", ["NMG_weapons_ppsh","71rnd_762mm_psh_nmg","NMG_weapons_pksp","NMG_silence_dtknrmini","rhs_100Rnd_762x54mmR", "ACE_optic_MRCO_2D"]],
-	["76561198297574929", ["rhs_weap_SCARH_LB","rhs_mag_20Rnd_SCAR_762x51_m61_ap_bk","rhsusf_acc_rvg_blk","Scot_LEU_MK8_nord","rhsusf_acc_aac_762sd_silencer"]],
-	["76561198168372978", ["NMG_weapons_A762"]],
+	["76561198316727609", ["NMG_weapons_ppsh","71rnd_762mm_psh_nmg","NMG_weapons_pksp","NMG_silence_dtknrmini","rhs_100Rnd_762x54mmR", "ACE_optic_MRCO_2D"]], //Шамко
+	["76561198297574929", ["rhs_weap_SCARH_LB","rhs_mag_20Rnd_SCAR_762x51_m61_ap_bk","rhsusf_acc_rvg_blk","Scot_LEU_MK8_nord","rhsusf_acc_aac_762sd_silencer"]], //Giga
+	//["76561198168372978", ["NMG_weapons_A762"]], // Кот
 	["76561198055139490", ["NMG_weapons_A545","NMG_weapons_A545_gp","nord_tv110_sanya_bucha"]], //саня буча
 	["76561199061768748", ["NMG_weapons_A545","NMG_weapons_A545_gp","nord_tv110_stefan"]], //штефан
 	["76561198201205878", ["NMG_weapons_A545","NMG_weapons_A545_gp","nord_tv110_fraer"]], //fraer
@@ -16,7 +16,8 @@ _donateMap = createHashMapFromArray [
 	["76561198338806858", ["nord_tv110_cikada"]],
 	["76561199002226480", ["nord_tv110_flamberg"]],
 	["76561198869532056", ["nord_tv110_vega"]],
-	["76561198815605790", ["nord_tv110_varden"]]
+	["76561198815605790", ["nord_tv110_varden"]],
+	["76561199786409092", ["afou_weap_fort221_556x45_01"]] //Baron
 ];
 
 _myDonate = _donateMap getOrDefault [(getPlayerUID player), []];
