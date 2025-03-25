@@ -331,11 +331,11 @@ class logistic_vsu_spawner_class //ящики всу
 
 // -------------- ВСУ -----------------------
 
-class opspn3_1_spawner_class //1 отряд 8 ОПСпН
+class opspn8_1_spawner_class //1 отряд 8 ОПСпН
 {
-    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == opspn3_1_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == opspn8_1_spawner)"; // "(playerSide in [west,independent])"
     
-    class opspn3_1_spawner_class
+    class opspn8_1_spawner_class
 	{
         displayName = "Запрос техники 1 отряд 8 ОПСпН";
         vehicles[] =
@@ -344,17 +344,17 @@ class opspn3_1_spawner_class //1 отряд 8 ОПСпН
         };
         spawnPoints[] =
         {
-            {"1",{"opspn3_1_spawnplace"}}
+            {"1",{"opspn8_1_spawnplace"}}
         };
         
     };
 };
 
-class opspn3_2_spawner_class //2 отряд 8 ОПСпН
+class opspn8_2_spawner_class //2 отряд 8 ОПСпН
 {
-    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == opspn3_2_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == opspn8_2_spawner)"; // "(playerSide in [west,independent])"
     
-    class opspn3_2_spawner_class
+    class opspn8_2_spawner_class
 	{
         displayName = "Запрос техники 1 отряд 8 ОПСпН";
         vehicles[] =
@@ -363,17 +363,17 @@ class opspn3_2_spawner_class //2 отряд 8 ОПСпН
         };
         spawnPoints[] =
         {
-            {"1",{"opspn3_2_spawnplace"}}
+            {"1",{"opspn8_2_spawnplace"}}
         };
         
     };
 };
 
-class opspn3_3_spawner_class //3 отряд 8 ОПСпН
+class opspn8_3_spawner_class //3 отряд 8 ОПСпН
 {
-    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == opspn3_3_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == opspn8_3_spawner)"; // "(playerSide in [west,independent])"
     
-    class opspn3_3_spawner_class
+    class opspn8_3_spawner_class
 	{
         displayName = "Запрос техники 1 отряд 8 ОПСпН";
         vehicles[] =
@@ -382,7 +382,7 @@ class opspn3_3_spawner_class //3 отряд 8 ОПСпН
         };
         spawnPoints[] =
         {
-            {"1",{"opspn3_3_spawnplace"}}
+            {"1",{"opspn8_3_spawnplace"}}
         };
         
     };

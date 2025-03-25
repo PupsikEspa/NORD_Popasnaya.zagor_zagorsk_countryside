@@ -30204,8 +30204,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""opspn3_3_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="opspn3_3_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""opspn8_3_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="opspn8_3_spawner";
 																disableSimulation=1;
 															};
 															id=99828;
@@ -30243,8 +30243,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""opspn3_1_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="opspn3_1_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""opspn8_1_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="opspn8_1_spawner";
 																disableSimulation=1;
 															};
 															id=171475;
@@ -30263,8 +30263,8 @@ class Mission
 															flags=4;
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""opspn3_2_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="opspn3_2_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""opspn8_2_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="opspn8_2_spawner";
 																disableSimulation=1;
 															};
 															id=171493;
@@ -31659,8 +31659,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="opspn3_3";
-												init="this setVariable [""regArs"", opspn3_3_ars, true];" \n "this setVariable [""regSpawner"", opspn3_3_spawner, true];";
+												name="opspn8_3";
+												init="this setVariable [""regArs"", opspn8_3_ars, true];" \n "this setVariable [""regSpawner"", opspn8_3_spawner, true];";
 											};
 											id=164623;
 											class CustomAttributes
@@ -32309,8 +32309,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="opspn3_1";
-												init="this setVariable [""regArs"", opspn3_1_ars, true];" \n "this setVariable [""regSpawner"", opspn3_1_spawner, true];";
+												name="opspn8_1";
+												init="this setVariable [""regArs"", opspn8_1_ars, true];" \n "this setVariable [""regSpawner"", opspn8_1_spawner, true];";
 											};
 											id=171476;
 											class CustomAttributes
@@ -32959,8 +32959,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="opspn3_2";
-												init="this setVariable [""regArs"", opspn3_2_ars, true];" \n "this setVariable [""regSpawner"", opspn3_2_spawner, true];";
+												name="opspn8_2";
+												init="this setVariable [""regArs"", opspn8_2_ars, true];" \n "this setVariable [""regSpawner"", opspn8_2_spawner, true];";
 											};
 											id=171494;
 											class CustomAttributes
@@ -43727,7 +43727,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
-				name="opspn3_3_ars";
+				name="opspn8_3_ars";
 			};
 			id=99845;
 			type="rhs_spec_weapons_crate";
@@ -43801,7 +43801,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="opspn3_3_spawnplace";
+				name="opspn8_3_spawnplace";
 				disableSimulation=1;
 			};
 			id=99846;
@@ -44457,7 +44457,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						name="opspn3_3_plate";
+						name="opspn8_3_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};
@@ -44555,7 +44555,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						name="opspn3_1_plate";
+						name="opspn8_1_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};
@@ -44604,7 +44604,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						name="opspn3_2_plate";
+						name="opspn8_2_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};
@@ -45808,7 +45808,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
-				name="opspn3_1_ars";
+				name="opspn8_1_ars";
 			};
 			id=171490;
 			type="rhs_spec_weapons_crate";
@@ -45882,7 +45882,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="opspn3_1_spawnplace";
+				name="opspn8_1_spawnplace";
 				disableSimulation=1;
 			};
 			id=171491;
@@ -45979,7 +45979,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
-				name="opspn3_2_ars";
+				name="opspn8_2_ars";
 			};
 			id=171508;
 			type="rhs_spec_weapons_crate";
@@ -46052,7 +46052,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				name="opspn3_2_spawnplace";
+				name="opspn8_2_spawnplace";
 				disableSimulation=1;
 			};
 			id=171509;

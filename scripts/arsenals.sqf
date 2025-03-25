@@ -79,9 +79,9 @@ obrmp40_class = [] spawn ///40 ОБрМП
 };
 
 // -------------- ВСУ -----------------------
-opspn3_1_class = [] spawn /// 1 отряд 8 ОПСпН
+opspn8_1_class = [] spawn /// 1 отряд 8 ОПСпН
 {
-	_boxes = [opspn3_1_ars];
+	_boxes = [opspn8_1_ars];
 	{
 	_box = _x;
 	_list = [];
@@ -90,9 +90,9 @@ opspn3_1_class = [] spawn /// 1 отряд 8 ОПСпН
 	} forEach _boxes;
 };
 
-opspn3_2_class = [] spawn /// 2 отряд 8 ОПСпН
+opspn8_2_class = [] spawn /// 2 отряд 8 ОПСпН
 {
-	_boxes = [opspn3_2_ars];
+	_boxes = [opspn8_2_ars];
 	{
 	_box = _x;
 	_list = [];
@@ -101,9 +101,9 @@ opspn3_2_class = [] spawn /// 2 отряд 8 ОПСпН
 	} forEach _boxes;
 };
 
-opspn3_3_class = [] spawn /// 3 отряд 8 ОПСпН
+opspn8_3_class = [] spawn /// 3 отряд 8 ОПСпН
 {
-	_boxes = [opspn3_3_ars];
+	_boxes = [opspn8_3_ars];
 	{
 	_box = _x;
 	_list = [];
