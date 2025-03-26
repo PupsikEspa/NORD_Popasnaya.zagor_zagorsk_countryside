@@ -341,13 +341,13 @@ class opspn8_1_spawner_class //1 отряд 8 ОПСпН
         vehicles[] =
         {
 		{"nord_t80bv_ua",1,"true"},
-		{"FA_UAF_BTR4",1,"true"},
+		{"nord_FA_UAF_BTR4",1,"true"},
 		{"btr80a_krest",1,"true"},
-		{"b_afougf_uaf_novator",1,"true"},
+		{"nord_b_afougf_uaf_novator",1,"true"},
 		{"nord_uaz452b_zsu",1,"true"},
-		{"b_afougf_yt_m998_2dr",1,"true"},
+		{"nord_b_afougf_m998_2dr",1,"true"},
 		{"b_afougf_yt_UAZ_open_Base",1,"true"},
-		{"b_afougf_m1151_mk19_base",1,"true"},
+		{"nord_rhsusf_m1043_w_mk19",1,"true"},
 		{"tundra_ukr_krest",1,"true"},
         };
         spawnPoints[] =
@@ -370,9 +370,9 @@ class opspn8_2_spawner_class //2 отряд 8 ОПСпН
 		{"btr80a_krest",2,"true"},
 		{"nord_uaz452b_zsu",1,"true"},
 		{"b_afougf_yt_kozak5_unarmed_F",1,"true"},
-		{"b_afougf_yt_m998_2dr",1,"true"},
+		{"nord_b_afougf_m998_2dr",1,"true"},
 		{"b_afougf_m1151_base",1,"true"},
-		{"b_afougf_m1151_mk19_base",1,"true"},
+		{"nord_rhsusf_m1043_w_mk19",1,"true"},
 		{"tundra_ukr_krest",1,"true"},
         };
         spawnPoints[] =
@@ -393,9 +393,9 @@ class opspn8_3_spawner_class //3 отряд 8 ОПСпН
         vehicles[] =
         {
 		{"nord_uaz452b_zsu",1,"true"},
-		{"b_afougf_uaf_novator",1,"true"},
+		{"nord_b_afougf_uaf_novator",1,"true"},
 		{"b_afougf_yt_kozak5_unarmed_F",1,"true"},
-		{"b_afougf_yt_m998_2dr",1,"true"},
+		{"nord_b_afougf_m998_2dr",1,"true"},
 		{"mkk_t64_bv",1,"true"},
 		{"b_afougf_yt_UAZ_open_Base",1,"true"},
 		{"b_afougf_m1151_mk19_base",1,"true"},
@@ -418,13 +418,13 @@ class ombr24_spawner_class //24 ОМБр
         displayName = "Запрос техники 24 ОМБр";
         vehicles[] =
         {
-		{"b_afougf_yt_bmp1p",1,"true"},
+		{"nord_b_afougf_bmp1p",1,"true"},
 		{"btr80a_krest",1,"true"},
 		{"nord_uaz452b_zsu",1,"true"},
 		{"b_afougf_yt_kozak5_unarmed_F",1,"true"},
 		{"b_afougf_yt_UAZ_open_Base",1,"true"},
 		{"b_afougf_m1151_base",1,"true"},
-		{"b_afougf_uaf_fiona",2,"true"},
+		{"nord_b_afougf_uaf_fiona",2,"true"},
 		{"b_afougf_yt_btr80",1,"true"},
 		{"b_afougf_yt_btr70",1,"true"},
         };
@@ -447,14 +447,13 @@ class btro11_spawner_class //11 БТрО
         {
 		{"b_afougf_uaf_t64bm2",1,"true"},
 		{"FA_UAF_BMP1U",1,"true"},
-		{"FA_UAF_BTR4",1,"true"},
+		{"nord_FA_UAF_BTR4",1,"true"},
 		{"nord_uaz452b_zsu",1,"true"},
-		{"b_afougf_uaf_novator",1,"true"},
+		{"nord_b_afougf_uaf_novator",1,"true"},
 		{"b_afougf_yt_kozak5_unarmed_F",1,"true"},
-		{"b_afougf_yt_m998_2dr",1,"true"},
+		{"nord_b_afougf_m998_2dr",1,"true"},
 		{"b_afougf_yt_UAZ_open_Base",2,"true"},
 		{"b_afougf_m1151_base",1,"true"},
-		{"b_afougf_yt_UAZ_SPG9_Base",1,"true"},
 		{"b_afougf_yt_UAZ_SPG9_Base",1,"true"},
 		{"b_afougf_yt_btr80",1,"true"},
         };
@@ -479,7 +478,7 @@ class ogshbr128_spawner_class //128 ОГШБр
 		{"nord_uaz452b_zsu",1,"true"},
 		{"b_afougf_yt_UAZ_open_Base",1,"true"},
 		{"b_afougf_m1151_base",1,"true"},
-		{"b_afougf_uaf_fiona",1,"true"},
+		{"nord_b_afougf_uaf_fiona",1,"true"},
 		{"b_afougf_yt_btr70",1,"true"},
         };
         spawnPoints[] =
@@ -500,14 +499,14 @@ class ogshbr10_spawner_class //10 ОГШБр
         vehicles[] =
         {
 		{"mkk_t64_bv",1,"true"},
-		{"FA_UAF_BTR3",1,"true"},
-		{"b_afougf_yt_bmp2d",1,"true"},
+		{"nord_FA_UAF_BTR3",1,"true"},
+		{"nord_b_afougf_bmp2",1,"true"},
 		{"btr80a_krest",1,"true"},
 		{"nord_uaz452b_zsu",1,"true"},
-		{"b_afougf_uaf_novator",1,"true"},
-		{"b_afougf_yt_m998_2dr",1,"true"},
+		{"nord_b_afougf_uaf_novator",1,"true"},
+		{"nord_b_afougf_m998_2dr",1,"true"},
 		{"b_afougf_yt_UAZ_open_Base",1,"true"},
-		{"b_afougf_uaf_fiona",1,"true"},
+		{"nord_b_afougf_uaf_fiona",1,"true"},
 		{"b_afougf_yt_btr80",1,"true"}
         };
         spawnPoints[] =
