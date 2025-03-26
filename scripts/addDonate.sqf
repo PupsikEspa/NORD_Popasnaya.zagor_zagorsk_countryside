@@ -14,7 +14,7 @@ _donateMap = createHashMapFromArray [
 	["76561199042520076", ["nord_tv110_ermak"]],
 	["76561198908535754", ["nord_tv110_knyazi"]],
 	["76561198338806858", ["nord_tv110_cikada"]],
-	["76561199002226480", ["nord_tv110_flamberg"]],
+	["76561199002226480", ["nord_tv110_flamberg","NMG_weapons_A545","NMG_weapons_A545_gp"]],
 	["76561198869532056", ["nord_tv110_vega"]],
 	["76561198815605790", ["nord_tv110_varden"]],
 	["76561199786409092", ["afou_weap_fort221_556x45_01"]] //Baron
