@@ -269,7 +269,7 @@ class obrcpn346_spawner_class //346 ОБрСпН
         displayName = "Запрос техники 346 ОБрСпН";
         vehicles[] =
         {    
-            {"nord_t80bv_z",1,"true"},
+            {"nord_t80bv_v",1,"true"},
             {"RUS_VDV_south_bmp2",1,"true"},
             {"nord_uaz452b_spn",1,"true"},
             {"rhs_tigr_msv",2,"true"},
