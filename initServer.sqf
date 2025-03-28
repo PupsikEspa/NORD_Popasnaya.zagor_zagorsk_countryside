@@ -18,8 +18,9 @@ if (isServer) then {
 		["1-й отряд 8 ОПСпН","opspn8_1"],
 		["2-й отряд 8 ОПСпН","opspn8_2"],
 		["3-й отряд 8 ОПСпН","opspn8_3"],
-		["24 ОМБр","ombr24"],
+		["79 ОДШБр","odshbr79"],
 		["11 БТрО","btro11"],
+		["17 ОТМБр","otmbr17"],
 		["128 ОГШБр","ogshbr128"],
 		["10 ОГШБр","ogshbr10"],
 		["76 ДШД","dshd76"],
@@ -28,8 +29,8 @@ if (isServer) then {
 		["3 ШО ЧВК Вагнер","wagner_sho3"],
 		["5 ШО ЧВК Вагнер","wagner_sho5"],
 		["40 ОБрМП","obrmp40"],
-		["346 ОБрСпН","obrcpn346"]
-		
+		["346 ОБрСпН","obrcpn346"],
+		["51 ПДП","pdp51"]
 	];
 	
 	missionNamespace setVariable ["groupNamesByCallsigns", _groupNamesMap, true];
