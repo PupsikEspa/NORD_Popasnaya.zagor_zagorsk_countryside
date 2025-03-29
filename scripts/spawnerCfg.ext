@@ -303,8 +303,8 @@ class common_vsu_spawner_class //общий всу
 			{"NORD_KRAZ_6322_ammo",2,"true"},
 			{"NORD_KRAZ_FUEL",1,"true"},
 			{"NORD_KRAZ_6322_repair	",1,"true"},
-			{"RUS_VDV_2b14",1,"true"},
-            {"rhs_D30_msv",1,"true"},
+			{"tbd_mt12",1,"true"},
+            {"rhs_D30_msv",2,"true"},
 			{"b_afougf_Mi8MTV3_Cargo",2,"true"},
 			{"nord_mtlb_ukr",10,"true"},
 		};
@@ -460,7 +460,6 @@ class opspn8_3_spawner_class //3 отряд 8 ОПСпН
 		{"nord_b_afougf_uaf_novator",1,"true"},
 		{"b_afougf_yt_kozak5_unarmed_F",1,"true"},
 		{"nord_b_afougf_m998_2dr",1,"true"},
-		{"mkk_t64_bv",1,"true"},
 		{"b_afougf_yt_UAZ_open_Base",1,"true"},
 		{"b_afougf_m1151_mk19_base",1,"true"},
 		{"tundra_ukr_krest",1,"true"},
