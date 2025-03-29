@@ -4,6 +4,7 @@
 [] execVM "ROS_hitreaction\scripts\ROS_HitReaction.sqf";
 
 
+
 //Светлая ночь
 CHBN_adjustBrightness = 1;
 CHBN_adjustColor = [0.5,0.7,1];
