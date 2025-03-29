@@ -3,20 +3,22 @@ if (side player == civilian) exitWith{};
 _group = missionNamespace getVariable "groupNamesByCallsigns" get (groupID (group player));
 
 _donateMap = createHashMapFromArray [
-	["76561198316727609", ["NMG_weapons_ppsh","71rnd_762mm_psh_nmg","NMG_weapons_pksp","NMG_silence_dtknrmini","rhs_100Rnd_762x54mmR", "ACE_optic_MRCO_2D"]], //Шамко
+	["76561198316727609", ["NMG_weapons_ppsh","71rnd_762mm_psh_nmg","NMG_weapons_pksp","NMG_silence_dtknrmini","rhs_100Rnd_762x54mmR", "ACE_optic_MRCO_2D"]], //Shamko
 	//["76561198297574929", ["rhs_weap_SCARH_LB","rhs_mag_20Rnd_SCAR_762x51_m61_ap_bk","rhsusf_acc_rvg_blk","Scot_LEU_MK8_nord","rhsusf_acc_aac_762sd_silencer"]], //Giga
-	//["76561198168372978", ["NMG_weapons_A762"]], // Кот
-	["76561198055139490", ["NMG_weapons_A545","NMG_weapons_A545_gp","nord_tv110_sanya_bucha"]], //саня буча
-	//["76561199061768748", ["NMG_weapons_AK_Maluk545","nord_tv110_stefan"]], //штефан
+	//["76561198168372978", ["NMG_weapons_A762"]], // Kot
+	["76561198055139490", ["NMG_weapons_A545","NMG_weapons_A545_gp","nord_tv110_sanya_bucha"]], //cana bycha
+	//["76561199061768748", ["NMG_weapons_AK_Maluk545","nord_tv110_stefan"]], //htefan
 	["76561198201205878", ["NMG_weapons_A545","NMG_weapons_A545_gp","nord_tv110_fraer","Quebec_Cap_SS_grey","Quebec_Cap_SS_OD","Quebec_Cap_SS_tan"]], //fraer
 	["76561199287760678", ["NMG_weapons_AM17pp"]],
 	["76561198268337887", ["rhs_weap_SCARH_LB","rhs_mag_20Rnd_SCAR_762x51_m61_ap_bk","rhsusf_acc_rvg_blk","Scot_LEU_MK8_nord","rhsusf_acc_aac_762sd_silencer","tsb_mag_762x51_20rnd_M61_SCARB"]],
 	["76561199042520076", ["nord_tv110_ermak"]],
 	["76561198908535754", ["nord_tv110_knyazi"]],
-	["76561198338806858", ["nord_tv110_cikada"]],
+	["76561198338806858", ["nord_tv110_cikada","Ltf_AEROM5_BLK","LTF_M110_20Rnd"]],
 	["76561199002226480", ["nord_tv110_flamberg","NMG_weapons_A545","NMG_weapons_A545_gp"]],
-	["76561198869532056", ["nord_tv110_vega"]],
-	["76561199543645766", ["NMG_weapons_A762","NMG_weapons_A762_gp"]],
+	["76561198869532056", ["nord_tv110_vega","NMG_weapons_A545"]],
+	["76561199543645766", ["NMG_weapons_A762","NMG_weapons_A762_gp"]], //Fil
+	["76561198855517877", ["TSVL8_300","TSVL8_300_Mag"]], //Joker
+	["76561198309019794", ["Ltf_HK416D_SMR_S_BLK"]], //Rin
 	["76561198815605790", ["nord_tv110_varden"]],
 	["76561199786409092", ["afou_weap_fort221_556x45_01"]] //Baron
 ];
