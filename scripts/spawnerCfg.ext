@@ -528,7 +528,7 @@ class btro11_spawner_class //11 БТрО
     };
 };
 
-class otmbr17_spawner_class //17 ОТМБр
+class otmbr17_spawner_class //17 ОТМБр (Пусто)
 {
     conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == otmbr17_spawner)"; // "(playerSide in [west,independent])"
     
