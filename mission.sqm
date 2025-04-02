@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1681.1149,225.17049,18903.928};
-		dir[]={0.54159403,-0.83314365,-0.1120258};
-		up[]={0.8158744,0.55305475,-0.16875914};
-		aside[]={-0.2025571,-1.4726538e-08,-0.97927195};
+		pos[]={1698.39,143.90057,18901.951};
+		dir[]={0.69676328,-0.70763642,-0.11740549};
+		up[]={0.69780576,0.70656919,-0.11758123};
+		aside[]={-0.1661599,8.5499778e-08,-0.98610437};
 	};
 };
 binarizationWanted=0;
@@ -368,7 +368,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -394,7 +394,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -407,7 +407,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -55423,7 +55423,7 @@ class Mission
 			type="";
 			a=75;
 			b=455.73227;
-			angle=55.901035;
+			angle=55.901031;
 			id=173853;
 			atlOffset=4.5821533;
 			class CustomAttributes
