@@ -22,6 +22,7 @@ _donateMap = createHashMapFromArray [
 	["76561198815605790", ["nord_tv110_varden"]],
 	["76561199786409092", ["afou_weap_fort221_556x45_01"]] //Baron
 	["76561198029025525", ["NMG_weapons_A762_gp","NMG_weapons_A762"]] //Gans Legenda
+	["76561198998228174", ["NMG_weapons_A545"]] // Chuhcbek
 ];
 
 _myDonate = _donateMap getOrDefault [(getPlayerUID player), []];
