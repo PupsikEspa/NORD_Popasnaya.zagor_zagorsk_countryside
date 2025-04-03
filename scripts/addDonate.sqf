@@ -20,8 +20,8 @@ _donateMap = createHashMapFromArray [
 	["76561198855517877", ["TSVL8_300","TSVL8_300_Mag"]], //Joker
 	["76561198309019794", ["Ltf_HK416D_SMR_S_BLK"]], //Rin
 	["76561198815605790", ["nord_tv110_varden"]],
-	["76561199786409092", ["afou_weap_fort221_556x45_01"]] //Baron
-	["76561198029025525", ["NMG_weapons_A762_gp","NMG_weapons_A762"]] //Gans Legenda
+	["76561199786409092", ["afou_weap_fort221_556x45_01"]], //Baron
+	["76561198029025525", ["NMG_weapons_A762_gp","NMG_weapons_A762"]], //Gans Legenda
 	["76561198998228174", ["NMG_weapons_A545"]] // Chuhcbek
 ];
 
