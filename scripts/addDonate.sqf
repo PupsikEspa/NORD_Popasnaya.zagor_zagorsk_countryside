@@ -12,7 +12,7 @@ _donateMap = createHashMapFromArray [
 	["76561199287760678", ["NMG_weapons_AM17pp"]],
 	["76561198268337887", ["rhs_weap_SCARH_LB","rhs_mag_20Rnd_SCAR_762x51_m61_ap_bk","rhsusf_acc_rvg_blk","Scot_LEU_MK8_nord","rhsusf_acc_aac_762sd_silencer","tsb_mag_762x51_20rnd_M61_SCARB"]],
 	["76561199042520076", ["nord_tv110_ermak"]],
-	["76561198908535754", ["nord_tv110_knyazi","NMG_weapons_A762","tsb_mag_762x39_30rnd_7n23_metal"]],
+	["76561198908535754", ["nord_tv110_knyazi","NMG_weapons_mk47","tsb_mag_762x39_30rnd_7n23_metal"]],
 	["76561198338806858", ["nord_tv110_cikada","Ltf_AEROM5_BLK","LTF_M110_20Rnd"]],
 	["76561199002226480", ["nord_tv110_flamberg","NMG_weapons_A545","NMG_weapons_A545_gp"]],
 	["76561198869532056", ["nord_tv110_vega","NMG_weapons_A545"]],
