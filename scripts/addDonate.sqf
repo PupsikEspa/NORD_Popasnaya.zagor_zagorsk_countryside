@@ -8,7 +8,7 @@ _donateMap = createHashMapFromArray [
 	//["76561198168372978", ["NMG_weapons_A762"]], // Kot
 	["76561198055139490", ["NMG_weapons_A545","NMG_weapons_A545_gp","nord_tv110_sanya_bucha"]], //cana bycha
 	//["76561199061768748", ["NMG_weapons_AK_Maluk545","nord_tv110_stefan"]], //htefan
-	["76561198201205878", ["NMG_weapons_A545","NMG_weapons_A545_gp","nord_tv110_fraer","Quebec_Cap_SS_grey","Quebec_Cap_SS_OD","Quebec_Cap_SS_tan","TOTT_Razor_110_Geissele"]], //fraer
+	["76561198201205878", ["NMG_weapons_A545","NMG_weapons_A545_gp","nord_tv110_fraer","Quebec_Cap_SS_grey","Quebec_Cap_SS_OD","Quebec_Cap_SS_tan","TOTT_Razor_110_Geissele","rhsusf_acc_compm4"]], //fraer
 	["76561199287760678", ["NMG_weapons_AM17pp"]],
 	["76561198268337887", ["rhs_weap_SCARH_LB","rhs_mag_20Rnd_SCAR_762x51_m61_ap_bk","rhsusf_acc_rvg_blk","Scot_LEU_MK8_nord","rhsusf_acc_aac_762sd_silencer","tsb_mag_762x51_20rnd_M61_SCARB"]],
 	["76561199042520076", ["nord_tv110_ermak"]],
