@@ -61466,16 +61466,16 @@ class Mission
 		class Item291
 		{
 			dataType="Marker";
-			position[]={7717.8301,249.71068,5682.248};
+			position[]={7697.4766,249.71068,6028.1396};
 			name="marker_49";
 			markerType="RECTANGLE";
 			type="";
 			colorName="ColorCIV";
 			a=10;
-			b=710.74548;
+			b=364.2558;
 			angle=356.63239;
 			id=179458;
-			atlOffset=-16.760361;
+			atlOffset=-20.488388;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -61524,16 +61524,16 @@ class Mission
 		class Item292
 		{
 			dataType="Marker";
-			position[]={6758.0869,270.43359,4784.8291};
+			position[]={6540.2866,270.43359,5448.8291};
 			name="marker_50";
 			markerType="RECTANGLE";
 			type="";
 			colorName="ColorCIV";
 			a=10;
-			b=1029.8125;
+			b=1197.7009;
 			angle=79.168091;
 			id=179459;
-			atlOffset=20.202377;
+			atlOffset=25.304993;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -61582,16 +61582,16 @@ class Mission
 		class Item293
 		{
 			dataType="Marker";
-			position[]={5341.4028,261.33374,5267.2441};
+			position[]={5149.0674,261.33374,5580.9614};
 			name="marker_51";
 			markerType="RECTANGLE";
 			type="";
 			colorName="ColorCIV";
 			a=10;
-			b=789.41742;
+			b=421.4346;
 			angle=328.48816;
 			id=179460;
-			atlOffset=14.647095;
+			atlOffset=6.8646698;
 			class CustomAttributes
 			{
 				class Attribute0
