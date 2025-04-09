@@ -177,3 +177,5 @@ ogshbr10_class = [] spawn /// 10 ОГШБр (Пусто)
 	[_box, _list] call ace_arsenal_fnc_initBox;
 	} forEach _boxes;
 };
+
+
