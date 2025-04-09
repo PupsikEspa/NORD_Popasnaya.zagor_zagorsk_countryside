@@ -432,7 +432,9 @@ class opspn8_2_spawner_class //2 отряд 8 ОПСпН
         vehicles[] =
         {
 		{"btr80a_krest",2,"true"},
+		{"mkk_t64_bv",1,"true"},
 		{"nord_uaz452b_zsu",1,"true"},
+		{"nord_FA_UAF_BTR3",1,"true"},
 		{"b_afougf_yt_kozak5_unarmed_F",1,"true"},
 		{"nord_b_afougf_m998_2dr",1,"true"},
 		{"b_afougf_m1151_base",1,"true"},
@@ -459,8 +461,8 @@ class opspn8_3_spawner_class //3 отряд 8 ОПСпН
 		{"nord_uaz452b_zsu",1,"true"},
 		{"nord_b_afougf_uaf_novator",1,"true"},
 		{"b_afougf_yt_kozak5_unarmed_F",1,"true"},
-		{"nord_b_afougf_m998_2dr",1,"true"},
-		{"b_afougf_yt_UAZ_open_Base",1,"true"},
+		{"nord_b_afougf_m998_2dr",2,"true"},
+		{"b_afougf_yt_UAZ_open_Base",2,"true"},
 		{"b_afougf_m1151_mk19_base",1,"true"},
 		{"tundra_ukr_krest",1,"true"},
         };
@@ -512,11 +514,11 @@ class btro11_spawner_class //11 БТрО
 		{"FA_UAF_BMP1U",1,"true"},
 		{"nord_FA_UAF_BTR4",1,"true"},
 		{"nord_uaz452b_zsu",1,"true"},
-		{"nord_b_afougf_uaf_novator",1,"true"},
+		{"nord_b_afougf_uaf_novator",2,"true"},
 		{"b_afougf_yt_kozak5_unarmed_F",1,"true"},
 		{"nord_b_afougf_m998_2dr",1,"true"},
 		{"b_afougf_yt_UAZ_open_Base",2,"true"},
-		{"b_afougf_m1151_base",1,"true"},
+		{"b_afougf_m1151_base",2,"true"},
 		{"b_afougf_yt_UAZ_SPG9_Base",1,"true"},
 		{"b_afougf_yt_btr80",1,"true"},
         };
@@ -556,11 +558,13 @@ class ogshbr128_spawner_class //128 ОГШБр
         displayName = "Запрос техники 128 ОГШБр";
         vehicles[] =
         {
+		{"btr80a_krest",2,"true"},
+		{"nord_b_afougf_bmp2",1,"true"},
+		{"b_afougf_yt_btr80",1,"true"},
 		{"btr80a_krest",1,"true"},
-		{"nord_uaz452b_zsu",1,"true"},
+		{"nord_uaz452b_zsu",2,"true"},
 		{"b_afougf_yt_UAZ_open_Base",1,"true"},
-		{"b_afougf_m1151_base",1,"true"},
-		{"nord_b_afougf_uaf_fiona",1,"true"},
+		{"nord_b_afougf_uaf_fiona",2,"true"},
 		{"b_afougf_yt_btr70",1,"true"},
         };
         spawnPoints[] =
@@ -571,7 +575,7 @@ class ogshbr128_spawner_class //128 ОГШБр
     };
 };
 
-class ogshbr10_spawner_class //10 ОГШБр
+class ogshbr10_spawner_class //10 ОГШБр (ПУСТО)
 {
     conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == ogshbr10_spawner)"; // "(playerSide in [west,independent])"
     
@@ -580,16 +584,6 @@ class ogshbr10_spawner_class //10 ОГШБр
         displayName = "Запрос техники 10 ОГШБр";
         vehicles[] =
         {
-		{"mkk_t64_bv",1,"true"},
-		{"nord_FA_UAF_BTR3",1,"true"},
-		{"nord_b_afougf_bmp2",1,"true"},
-		{"btr80a_krest",1,"true"},
-		{"nord_uaz452b_zsu",1,"true"},
-		{"nord_b_afougf_uaf_novator",1,"true"},
-		{"nord_b_afougf_m998_2dr",1,"true"},
-		{"b_afougf_yt_UAZ_open_Base",1,"true"},
-		{"nord_b_afougf_uaf_fiona",1,"true"},
-		{"b_afougf_yt_btr80",1,"true"}
         };
         spawnPoints[] =
         {
