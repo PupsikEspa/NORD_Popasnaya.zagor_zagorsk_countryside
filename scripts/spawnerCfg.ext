@@ -260,13 +260,13 @@ class obrmp40_spawner_class //40 ОБрМП
     };
 };
 
-class obrcpn346_spawner_class //346 ОБрСпН
+class sho4_spawner_class //4 ШО Вагнер
 {
-    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == obrcpn346_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == sho4_spawner)"; // "(playerSide in [west,independent])"
     
-    class obrcpn346_spawner_class
+    class sho4_spawner_class
 	{
-        displayName = "Запрос техники 346 ОБрСпН";
+        displayName = "Запрос техники 4 ШО Вагнер";
         vehicles[] =
         {    
             {"nord_t80bv_v",1,"true"},
@@ -281,7 +281,7 @@ class obrcpn346_spawner_class //346 ОБрСпН
 		};
         spawnPoints[] =
         {
-            {"1",{"obrcpn346_spawnplace"}}
+            {"1",{"sho4_spawnplace"}}
         };
         
     };

@@ -13,7 +13,7 @@ _arsArray = [
 	wagner_sho2_ars,
 	wagner_sho1_ars,
 	obrmp40_ars,
-	obrcpn346_ars,
+	sho4_ars,
 	dshd76_ars,
 	otmbr17_ars,
 	pdp51_ars
