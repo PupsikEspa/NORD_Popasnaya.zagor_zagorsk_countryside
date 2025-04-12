@@ -78,7 +78,7 @@ pdp51_class = [] spawn ///51 ПДП
 	} forEach _boxes;
 };
 
-obrmp40_class = [] spawn ///40 ОБрМП //стоит арсенеал 76 дшд
+obrmp40_class = [] spawn ///40 ОБрМП
 {
 	_boxes = [obrmp40_ars];
 	{
