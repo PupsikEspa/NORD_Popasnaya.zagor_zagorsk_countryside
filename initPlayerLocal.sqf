@@ -133,21 +133,21 @@ player setVariable [
 				private _damageMultiplier = _hitpointArmor / _armorCoef;
 				_addedDamage = _addedDamage * _damageMultiplier;
 			
-				private _ogDamage = _damage - _prevDamage;
-				diag_log text "AAA TOLIK DEBUG: NEW HIT PROCESSED! DETAILS BELOW:";
-				diag_log text format ["HIT UNIT: %1", _unit];
-				diag_log text format ["SHOOTER: %1", _source];
-				diag_log text format ["HITPOINT: %1", _hitPoint];
-				diag_log text format ["HITPOINT ARMOR: %1", _hitpointArmor];
-				diag_log text format ["ORIGINAL DAMAGE RECEIVED: %1", _ogDamage];
-				diag_log text format ["NEW DAMAGE RECEIVED: %1", _addedDamage];
-				if (_ogDamage != 0) then {
-					diag_log text format ["%1 DAMAGE CHANGE: %2%3", "%", ((_addedDamage - _ogDamage) * 100 / _ogDamage) toFixed 2, "%"];
-				} else {
-					diag_log text "% DAMAGE CHANGE: N/A";
-				};
-				diag_log text format ["TOTAL HITPOINT DAMAGE: %1", _prevDamage + _addedDamage];
-				diag_log text "";
+				//private _ogDamage = _damage - _prevDamage;
+				// diag_log text "AAA TOLIK DEBUG: NEW HIT PROCESSED! DETAILS BELOW:";
+				// diag_log text format ["HIT UNIT: %1", _unit];
+				// diag_log text format ["SHOOTER: %1", _source];
+				// diag_log text format ["HITPOINT: %1", _hitPoint];
+				// diag_log text format ["HITPOINT ARMOR: %1", _hitpointArmor];
+				// diag_log text format ["ORIGINAL DAMAGE RECEIVED: %1", _ogDamage];
+				// diag_log text format ["NEW DAMAGE RECEIVED: %1", _addedDamage];
+				// if (_ogDamage != 0) then {
+				// 	diag_log text format ["%1 DAMAGE CHANGE: %2%3", "%", ((_addedDamage - _ogDamage) * 100 / _ogDamage) toFixed 2, "%"];
+				// } else {
+				// 	diag_log text "% DAMAGE CHANGE: N/A";
+				// };
+				// diag_log text format ["TOTAL HITPOINT DAMAGE: %1", _prevDamage + _addedDamage];
+				// diag_log text "";
 			
 			// Replace original damage value with new damage value
 			_this set [2, _prevDamage + _addedDamage];
