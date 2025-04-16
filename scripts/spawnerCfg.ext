@@ -142,7 +142,7 @@ class wagner_sho2_spawner_class //ШО 2 Вагнер
     };
 };
 
-class wagner_sho3_spawner_class //ШО 3 Вагнер
+class wagner_sho3_spawner_class //ШО 3 Вагнер (Пусто)
 {
     conditionToAccess = "(side player == civilian) || ((missionNamespace getVariable ((missionNamespace getVariable ""groupNamesByCallsigns"" get (groupID (group player))) + ""_spawner"")) == wagner_sho3_spawner)"; // "(playerSide in [west,independent])"
     
@@ -151,13 +151,7 @@ class wagner_sho3_spawner_class //ШО 3 Вагнер
         displayName = "Запрос техники 3 ШО ЧВК Вагнер";
         vehicles[] =
         {    
-            {"RUS_MSV_bmp1",1,"true"},
-            {"nord_uaz452b_spn",1,"true"},
-            {"rhs_tigr_msv",3,"true"},
-            {"b_afougf_UAZ_open_Base",1,"true"},
-            {"UAZ_03_transport_F",1,"true"},
-            {"rhs_btr80a_msv",1,"true"},
-            {"RUS_MSV_South_btr80",1,"true"},
+
 		};
         spawnPoints[] =
         {
