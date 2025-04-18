@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=208426;
+		nextID=208428;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=109281;
+		nextID=109662;
 	};
 	class Camera
 	{
-		pos[]={16489.719,286.37244,11437.457};
-		dir[]={0.69195527,-0.59833246,-0.40419593};
-		up[]={0.51670343,0.80120897,-0.30182329};
-		aside[]={-0.50443095,7.4296258e-07,-0.86355358};
+		pos[]={17716.48,268.14981,96.773598};
+		dir[]={0.30833051,-0.69127107,0.65351385};
+		up[]={0.29496422,0.72259432,0.62518346};
+		aside[]={0.90439713,6.1219907e-08,-0.42669836};
 	};
 };
 binarizationWanted=0;
@@ -523,7 +523,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -549,7 +549,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -575,7 +575,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -30153,7 +30153,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=284;
+		items=280;
 		class Item0
 		{
 			dataType="Object";
@@ -37776,7 +37776,7 @@ class Mission
 																	name="mission_Base_template_1";
 																	class Entities
 																	{
-																		items=7;
+																		items=8;
 																		class Item0
 																		{
 																			dataType="Group";
@@ -44341,33 +44341,103 @@ class Mission
 																				nAttributes=1;
 																			};
 																		};
+																		class Item7
+																		{
+																			dataType="Group";
+																			side="East";
+																			class Entities
+																			{
+																				items=1;
+																				class Item0
+																				{
+																					dataType="Object";
+																					class PositionInfo
+																					{
+																						position[]={17729.664,230.21675,137.84108};
+																						angles[]={6.2674093,4.4311171,0.003448576};
+																					};
+																					side="East";
+																					flags=7;
+																					class Attributes
+																					{
+																						description="Снайпер";
+																						isPlayable=1;
+																						class Inventory
+																						{
+																							map="ItemMap";
+																							compass="ItemCompass";
+																							gps="ItemGPS";
+																						};
+																					};
+																					id=208427;
+																					type="O_Survivor_F";
+																					class CustomAttributes
+																					{
+																						class Attribute0
+																						{
+																							property="speaker";
+																							expression="_this setspeaker _value;";
+																							class Value
+																							{
+																								class data
+																								{
+																									singleType="STRING";
+																									value="Male03PER";
+																								};
+																							};
+																						};
+																						class Attribute1
+																						{
+																							property="pitch";
+																							expression="_this setpitch _value;";
+																							class Value
+																							{
+																								class data
+																								{
+																									singleType="SCALAR";
+																									value=1;
+																								};
+																							};
+																						};
+																						nAttributes=2;
+																					};
+																				};
+																			};
+																			class Attributes
+																			{
+																				name="pdp51_1";
+																				init="this setVariable [""regArs"", pdp51_ars, true];" \n "this setVariable [""regSpawner"", pdp51_spawner, true];";
+																				formation="DIAMOND";
+																			};
+																			id=208426;
+																		};
 																	};
 																	id=80;
-																	atlOffset=-0.037704468;
+																	atlOffset=-0.017333984;
 																};
 															};
 															id=79;
-															atlOffset=-0.037704468;
+															atlOffset=-0.017333984;
 														};
 													};
 													id=78;
-													atlOffset=-0.037704468;
+													atlOffset=-0.017333984;
 												};
 											};
 											id=77;
-											atlOffset=-0.037704468;
+											atlOffset=-0.017333984;
 										};
 									};
 									id=76;
-									atlOffset=-0.037704468;
+									atlOffset=-0.017333984;
 								};
 							};
 							id=75;
-							atlOffset=-0.037704468;
+							atlOffset=-0.017333984;
 						};
 					};
 					id=56703;
-					atlOffset=-0.037704468;
+					atlOffset=-0.017333984;
 				};
 				class Item19
 				{
@@ -88221,182 +88291,6 @@ class Mission
 			flags=1;
 			id=208421;
 			type="ModuleHideTerrainObjects_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="#filter";
-					expression="_this setVariable [""#filter"",_value]";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=15;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="#hideLocally";
-					expression="_this setVariable [""#hideLocally"",_value]";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item280
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={5298.6904,201.30843,7521.3467};
-			};
-			areaSize[]={5270.0137,0,7529.9922};
-			areaIsRectangle=1;
-			flags=1;
-			id=208422;
-			type="ModuleHideTerrainObjects_F";
-			atlOffset=-53.095383;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="#filter";
-					expression="_this setVariable [""#filter"",_value]";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=15;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="#hideLocally";
-					expression="_this setVariable [""#hideLocally"",_value]";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item281
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={15540.613,226.82013,3527.1299};
-			};
-			areaSize[]={4937.2012,0,2895.8831};
-			areaIsRectangle=1;
-			flags=1;
-			id=208423;
-			type="ModuleHideTerrainObjects_F";
-			atlOffset=-0.55799866;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="#filter";
-					expression="_this setVariable [""#filter"",_value]";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=15;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="#hideLocally";
-					expression="_this setVariable [""#hideLocally"",_value]";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item282
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={11741.394,147.0697,18384.578};
-			};
-			areaSize[]={8718.9297,0,2078.1328};
-			areaIsRectangle=1;
-			flags=1;
-			id=208424;
-			type="ModuleHideTerrainObjects_F";
-			atlOffset=-25.263794;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="#filter";
-					expression="_this setVariable [""#filter"",_value]";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=15;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="#hideLocally";
-					expression="_this setVariable [""#hideLocally"",_value]";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item283
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={13776.822,276.34631,10290.721};
-			};
-			areaSize[]={562.91504,0,340.98047};
-			areaIsRectangle=1;
-			flags=1;
-			id=208425;
-			type="ModuleHideTerrainObjects_F";
-			atlOffset=1.2483826;
 			class CustomAttributes
 			{
 				class Attribute0
