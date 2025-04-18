@@ -102,3 +102,5 @@ if (isServer) then {
 		publicVariableServer "sherpa_event_kill_fix";
 		missionNamespace setVariable ["isEvent", false, true];
 	};
+
+	
