@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=200681;
+		nextID=200683;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=107961;
+		nextID=108226;
 	};
 	class Camera
 	{
-		pos[]={17118.754,266.86987,11926.679};
-		dir[]={0.89683431,-0.29334933,-0.33113351};
-		up[]={0.27519518,0.95600313,-0.10160895};
-		aside[]={-0.34637201,1.2130477e-07,-0.93810481};
+		pos[]={17764.16,261.91861,182.51283};
+		dir[]={-0.54168272,-0.63753021,-0.54789943};
+		up[]={-0.44823757,0.77040845,-0.45338047};
+		aside[]={-0.71114987,7.5576827e-07,0.70308471};
 	};
 };
 binarizationWanted=0;
@@ -38,14 +38,11 @@ addons[]=
 	"ace_dragging",
 	"A3_Props_F_Enoch_Military_Equipment",
 	"A3_Characters_F",
-	"Ukr_ARMY_Uniforms",
+	"A3_Weapons_F",
 	"A3_Supplies_F_Enoch_Ammoboxes",
 	"ace_nametags",
 	"rhs_c_weapons",
 	"NMG_animation_reload",
-	"A3_Weapons_F",
-	"tfar_handhelds",
-	"Russian_PMC",
 	"CUP_Misc3_Config",
 	"CUP_Buildings_Config",
 	"A3_Modules_F",
@@ -79,7 +76,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=38;
+		items=35;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -110,8 +107,10 @@ class AddonsMetaData
 		};
 		class Item4
 		{
-			className="Ukr_ARMY_Uniforms";
-			name="Ukr_ARMY_Uniforms";
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item5
 		{
@@ -141,180 +140,162 @@ class AddonsMetaData
 		};
 		class Item9
 		{
-			className="A3_Weapons_F";
-			name="Arma 3 Alpha - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item10
-		{
-			className="tfar_handhelds";
-			name="tfar_handhelds";
-			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
-		};
-		class Item11
-		{
-			className="Russian_PMC";
-			name="Russian_PMC";
-		};
-		class Item12
-		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item13
+		class Item10
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
 		};
-		class Item14
+		class Item11
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item12
 		{
 			className="AfouMarkers";
 			name="AfouMarkers";
 			author="Barman75, Brezerk";
 			url="https://bit.ly/ArmaUA";
 		};
-		class Item16
+		class Item13
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item14
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item15
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item16
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="Команда ACE";
 			url="https://ace3.acemod.org/";
 		};
-		class Item20
+		class Item17
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item18
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="Команда ACE";
 			url="https://ace3.acemod.org/";
 		};
-		class Item22
+		class Item19
 		{
 			className="CUP_WarfareBuildings";
 			name="CUP_WarfareBuildings";
 		};
-		class Item23
+		class Item20
 		{
 			className="CUP_StandaloneTerrains_Core_Faction";
 			name="CUP_StandaloneTerrains_Core_Faction";
 		};
-		class Item24
+		class Item21
 		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item22
 		{
 			className="afou_flags";
 			name="flags";
 			author="Barman75, Brezerk";
 			url="https://bit.ly/ArmaUA";
 		};
-		class Item26
+		class Item23
 		{
 			className="CUP_Misc_e_Config";
 			name="CUP_Misc_e_Config";
 		};
-		class Item27
+		class Item24
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item28
+		class Item25
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item29
+		class Item26
 		{
 			className="CUP_CAStructures_Mil";
 			name="CUP_CAStructures_Mil";
 		};
-		class Item30
+		class Item27
 		{
 			className="CUP_Editor_A2_Roads_Config";
 			name="CUP_Editor_A2_Roads_Config";
 		};
-		class Item31
+		class Item28
 		{
 			className="CUP_CABuildings_Misc";
 			name="CUP_CABuildings_Misc";
 		};
-		class Item32
+		class Item29
 		{
 			className="rhs_structures_misc";
 			name="Terracore Misc Structures";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item33
+		class Item30
 		{
 			className="A3_Ui_F_Enoch";
 			name="Arma 3 Enoch - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item34
+		class Item31
 		{
 			className="VostokTriggerModule";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item35
+		class Item32
 		{
 			className="CUP_CAStructures_E_Misc_Misc_Interier";
 			name="CUP_CAStructures_E_Misc_Misc_Interier";
 		};
-		class Item36
+		class Item33
 		{
 			className="rhs_main";
 			name="rhs_main";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item37
+		class Item34
 		{
 			className="WMT_Tasks";
 			name="wmt_tasks";
@@ -374,7 +355,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -400,7 +381,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -426,7 +407,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -439,7 +420,7 @@ class CustomAttributes
 		};
 		nAttributes=5;
 	};
-	class Category2
+	class Category3
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -456,7 +437,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category3
+	class Category4
 	{
 		name="Scenario";
 		class Attribute0
@@ -30458,12 +30439,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164586;
@@ -30515,12 +30492,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164587;
@@ -30573,12 +30546,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164588;
@@ -30631,12 +30600,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164589;
@@ -30689,12 +30654,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164590;
@@ -30747,12 +30708,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164591;
@@ -30805,12 +30762,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164592;
@@ -30863,12 +30816,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164593;
@@ -30934,12 +30883,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164594;
@@ -31005,12 +30950,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164595;
@@ -31108,12 +31049,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164624;
@@ -31165,12 +31102,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164625;
@@ -31223,12 +31156,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164626;
@@ -31281,12 +31210,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164627;
@@ -31339,12 +31264,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164628;
@@ -31396,12 +31317,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164629;
@@ -31454,12 +31371,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164630;
@@ -31511,12 +31424,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164631;
@@ -31581,12 +31490,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164632;
@@ -31652,12 +31557,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=164633;
@@ -31723,12 +31624,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173006;
@@ -31781,12 +31678,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173007;
@@ -31839,12 +31732,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173008;
@@ -31897,12 +31786,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173010;
@@ -31968,12 +31853,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173009;
@@ -32058,12 +31939,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171477;
@@ -32115,12 +31992,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171478;
@@ -32173,12 +32046,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171479;
@@ -32231,12 +32100,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171480;
@@ -32289,12 +32154,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171481;
@@ -32347,12 +32208,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171482;
@@ -32405,12 +32262,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171483;
@@ -32463,12 +32316,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171484;
@@ -32534,12 +32383,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171485;
@@ -32605,12 +32450,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171486;
@@ -32708,12 +32549,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171495;
@@ -32766,12 +32603,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171496;
@@ -32824,12 +32657,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171497;
@@ -32882,12 +32711,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171498;
@@ -32940,12 +32765,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171499;
@@ -32998,12 +32819,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171500;
@@ -33056,12 +32873,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171501;
@@ -33114,12 +32927,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171502;
@@ -33185,12 +32994,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171503;
@@ -33256,12 +33061,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171504;
@@ -33327,12 +33128,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173012;
@@ -33385,12 +33182,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173013;
@@ -33443,12 +33236,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173015;
@@ -33501,12 +33290,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173016;
@@ -33559,12 +33344,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173017;
@@ -33663,12 +33444,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171513;
@@ -33720,12 +33497,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171514;
@@ -33778,12 +33551,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171515;
@@ -33835,12 +33604,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171516;
@@ -33892,12 +33657,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171517;
@@ -33950,12 +33711,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171518;
@@ -34007,12 +33764,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171519;
@@ -34064,12 +33817,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171520;
@@ -34134,12 +33883,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171521;
@@ -34204,12 +33949,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171522;
@@ -34274,12 +34015,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172986;
@@ -34332,12 +34069,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172987;
@@ -34390,12 +34123,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172988;
@@ -34448,12 +34177,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172989;
@@ -34506,12 +34231,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172990;
@@ -34564,12 +34285,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172991;
@@ -34622,12 +34339,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172992;
@@ -34693,12 +34406,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172993;
@@ -34764,12 +34473,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172994;
@@ -34835,12 +34540,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172996;
@@ -34893,12 +34594,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172997;
@@ -34950,12 +34647,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172998;
@@ -35007,12 +34700,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=172999;
@@ -35065,12 +34754,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173000;
@@ -35123,12 +34808,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173001;
@@ -35181,12 +34862,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173002;
@@ -35252,12 +34929,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173003;
@@ -35322,12 +34995,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=173004;
@@ -35424,12 +35093,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171530;
@@ -35481,12 +35146,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171531;
@@ -35539,12 +35200,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171532;
@@ -35597,12 +35254,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171533;
@@ -35655,12 +35308,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171534;
@@ -35713,12 +35362,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171535;
@@ -35771,12 +35416,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171536;
@@ -35829,12 +35470,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171537;
@@ -35900,12 +35537,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171538;
@@ -35971,12 +35604,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171539;
@@ -36074,12 +35703,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171547;
@@ -36132,12 +35757,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171548;
@@ -36190,12 +35811,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171549;
@@ -36247,12 +35864,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171550;
@@ -36305,12 +35918,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171551;
@@ -36363,12 +35972,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171552;
@@ -36421,12 +36026,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171553;
@@ -36479,12 +36080,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171554;
@@ -36550,12 +36147,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171555;
@@ -36621,12 +36214,8 @@ class Mission
 														isPlayable=1;
 														class Inventory
 														{
-															class uniform
-															{
-																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
-																isBackpack=0;
-															};
-															goggles="ltf_pyr_blclv2_cb";
+															map="ItemMap";
+															gps="ItemGPS";
 														};
 													};
 													id=171556;
@@ -36874,7 +36463,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="if (isServer) then {   " \n "    this addItemCargoGlobal [""rhs_mine_pmn2_mag"", 150];  " \n "    this addItemCargoGlobal [""rhs_mine_tm62m_mag"", 100];  " \n "    this addItemCargoGlobal [""rhs_mine_ozm72_a_mag"", 15]; " \n "    this addItemCargoGlobal [""launch_NLAW_F"", 10];  " \n " this addItemCargoGlobal [""Item_Mavic"", 3];" \n "   };";
+				init="if (isServer) then {   " \n "    this addItemCargoGlobal [""rhs_mine_pmn2_mag"", 150];  " \n "    this addItemCargoGlobal [""rhs_mine_tm62m_mag"", 100];  " \n "    this addItemCargoGlobal [""rhs_mine_ozm72_a_mag"", 15]; " \n "    this addItemCargoGlobal [""launch_NLAW_F"", 10];  " \n " this addItemCargoGlobal [""Item_Mavic"", 2];" \n " this addItemCargoGlobal [""Volnorez_Bag"", 2];" \n "   };";
 			};
 			id=1065;
 			type="I_E_CargoNet_01_ammo_F";
@@ -37308,18 +36897,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={17736.822,229.6176,180.07234};
+						position[]={17736.557,229.65164,180.20834};
 						angles[]={0,0.42406267,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""nord_armst_gm94"", 1]; " \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n " this addItemCargoGlobal [""MMM_Acc_IT_1TWS_615A"", 3];" \n "};" \n "";
+						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""nord_armst_gm94"", 1]; " \n " this addItemCargoGlobal [""ACE_VectorDay"", 5];" \n "};" \n "";
 						name="wagner_sho1_ars";
 					};
 					id=56910;
 					type="rhs_spec_weapons_crate";
+					atlOffset=0.00022888184;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -37382,14 +36972,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={17753.189,230.84753,134.45964};
-						angles[]={0,6.2134247,0};
+						position[]={17753.385,230.85048,134.55365};
+						angles[]={0.0019896752,6.2134242,0.016004669};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="if (isServer) then {   " \n "    this addItemCargoGlobal [""rhs_mine_pmn2_mag"", 50];  " \n "    this addItemCargoGlobal [""rhs_mine_tm62m_mag"", 50];  " \n "    this addItemCargoGlobal [""rhs_mine_ozm72_a_mag"", 15];" \n " this addItemCargoGlobal [""Item_Mavic"", 3];" \n "   };";
+						init="if (isServer) then {   " \n "    this addItemCargoGlobal [""rhs_mine_pmn2_mag"", 50];  " \n "    this addItemCargoGlobal [""rhs_mine_tm62m_mag"", 50];  " \n "    this addItemCargoGlobal [""rhs_mine_ozm72_a_mag"", 15];" \n " this addItemCargoGlobal [""Item_Mavic"", 3];" \n " this addItemCargoGlobal [""Volnorez_Bag"", 2];" \n "   };";
 					};
 					id=56670;
 					type="I_E_CargoNet_01_ammo_F";
@@ -38043,14 +37633,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164737;
@@ -38103,14 +37688,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164738;
@@ -38176,14 +37756,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164739;
@@ -38249,14 +37824,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164740;
@@ -38309,14 +37879,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164741;
@@ -38369,14 +37934,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164742;
@@ -38429,14 +37989,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164743;
@@ -38489,14 +38044,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164744;
@@ -38549,14 +38099,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164745;
@@ -38609,14 +38154,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164746;
@@ -38669,14 +38209,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164747;
@@ -38729,14 +38264,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164748;
@@ -38789,14 +38319,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164749;
@@ -38849,14 +38374,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164750;
@@ -38909,14 +38429,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164751;
@@ -38969,14 +38484,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164752;
@@ -39029,14 +38539,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164753;
@@ -39089,14 +38594,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164754;
@@ -39149,14 +38649,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164755;
@@ -39209,14 +38704,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164756;
@@ -39303,14 +38793,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164758;
@@ -39363,14 +38848,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164759;
@@ -39423,14 +38903,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164760;
@@ -39483,14 +38958,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164761;
@@ -39543,14 +39013,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164762;
@@ -39603,14 +39068,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164763;
@@ -39663,14 +39123,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164764;
@@ -39723,14 +39178,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164765;
@@ -39783,14 +39233,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164768;
@@ -39843,14 +39288,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164769;
@@ -39937,14 +39377,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164777;
@@ -39997,14 +39432,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164778;
@@ -40057,14 +39487,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164779;
@@ -40117,14 +39542,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164780;
@@ -40177,14 +39597,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164782;
@@ -40237,14 +39652,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164783;
@@ -40297,14 +39707,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164784;
@@ -40357,14 +39762,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164785;
@@ -40417,14 +39817,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164786;
@@ -40477,14 +39872,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164787;
@@ -40537,14 +39927,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164788;
@@ -40597,14 +39982,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164789;
@@ -40657,14 +40037,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164790;
@@ -40717,14 +40092,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164791;
@@ -40777,14 +40147,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=166577;
@@ -40870,14 +40235,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164798;
@@ -40930,14 +40290,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164799;
@@ -41003,14 +40358,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164800;
@@ -41076,14 +40426,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164801;
@@ -41136,14 +40481,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164802;
@@ -41196,14 +40536,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164803;
@@ -41256,14 +40591,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164804;
@@ -41316,14 +40646,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164805;
@@ -41376,14 +40701,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164806;
@@ -41436,14 +40756,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164807;
@@ -41496,14 +40811,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164808;
@@ -41556,14 +40866,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164809;
@@ -41616,14 +40921,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173384;
@@ -41689,14 +40989,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173385;
@@ -41749,14 +41044,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173386;
@@ -41809,14 +41099,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173387;
@@ -41869,14 +41154,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173388;
@@ -41962,14 +41242,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164811;
@@ -42022,14 +41297,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164812;
@@ -42082,14 +41352,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164813;
@@ -42142,14 +41407,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164814;
@@ -42202,14 +41462,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164815;
@@ -42262,14 +41517,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164816;
@@ -42322,14 +41572,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164817;
@@ -42382,14 +41627,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164818;
@@ -42442,14 +41682,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164819;
@@ -42502,14 +41737,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164820;
@@ -42562,14 +41792,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=171243;
@@ -42622,14 +41847,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=171245;
@@ -42682,14 +41902,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=171247;
@@ -42742,14 +41957,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=171249;
@@ -42835,14 +42045,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164822;
@@ -42894,14 +42099,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164823;
@@ -42954,14 +42154,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164824;
@@ -43014,14 +42209,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164825;
@@ -43074,14 +42264,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164826;
@@ -43134,14 +42319,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164827;
@@ -43194,14 +42374,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164828;
@@ -43254,14 +42429,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164829;
@@ -43314,14 +42484,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164830;
@@ -43374,14 +42539,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164831;
@@ -43434,14 +42594,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164832;
@@ -43494,14 +42649,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=164833;
@@ -43554,14 +42704,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=183935;
@@ -43614,14 +42759,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=183936;
@@ -43674,14 +42814,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=183937;
@@ -43734,14 +42869,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=183938;
@@ -43794,14 +42924,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=183939;
@@ -43854,14 +42979,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=183940;
@@ -43913,14 +43033,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=183944;
@@ -43972,14 +43087,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=183945;
@@ -44063,14 +43173,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173391;
@@ -44123,14 +43228,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173392;
@@ -44183,14 +43283,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173393;
@@ -44243,14 +43338,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173394;
@@ -44303,14 +43393,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173395;
@@ -44363,14 +43448,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173396;
@@ -44423,14 +43503,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173397;
@@ -44483,14 +43558,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173398;
@@ -44543,14 +43613,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173399;
@@ -44603,14 +43668,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173400;
@@ -44663,14 +43723,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173401;
@@ -44723,14 +43778,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173402;
@@ -44783,14 +43833,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173403;
@@ -44843,14 +43888,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173404;
@@ -44903,14 +43943,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173405;
@@ -44963,14 +43998,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173406;
@@ -45023,14 +44053,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173407;
@@ -45083,14 +44108,9 @@ class Mission
 																						isPlayable=1;
 																						class Inventory
 																						{
-																							class uniform
-																							{
-																								typeName="RUS_PMC_ACU_1";
-																								isBackpack=0;
-																							};
 																							map="ItemMap";
 																							compass="ItemCompass";
-																							watch="tf_microdagr";
+																							gps="ItemGPS";
 																						};
 																					};
 																					id=173408;
@@ -54463,7 +53483,7 @@ class Mission
 			type="";
 			a=2561.8237;
 			b=75;
-			angle=258.69;
+			angle=258.68997;
 			id=184412;
 			atlOffset=70.182632;
 			class CustomAttributes
@@ -56567,7 +55587,7 @@ class Mission
 			type="";
 			a=48.675999;
 			b=77.277;
-			angle=334.01093;
+			angle=334.01089;
 			id=200657;
 			atlOffset=0.031463623;
 			class CustomAttributes
@@ -56856,7 +55876,7 @@ class Mission
 			colorName="ColorBlue";
 			a=20;
 			b=302.32227;
-			angle=206.29507;
+			angle=206.29506;
 			id=200662;
 			atlOffset=-10.048004;
 			class CustomAttributes
@@ -56972,7 +55992,7 @@ class Mission
 			colorName="ColorCIV";
 			a=20;
 			b=1289.5973;
-			angle=97.907127;
+			angle=97.90712;
 			id=200664;
 			atlOffset=1.0027924;
 			class CustomAttributes
@@ -57146,7 +56166,7 @@ class Mission
 			colorName="ColorCIV";
 			a=20;
 			b=614.05316;
-			angle=198.67278;
+			angle=198.67276;
 			id=200667;
 			atlOffset=7.4894867;
 			class CustomAttributes
@@ -57320,7 +56340,7 @@ class Mission
 			colorName="ColorCIV";
 			a=20;
 			b=540.01898;
-			angle=187.34917;
+			angle=187.34915;
 			id=200670;
 			atlOffset=-11.701447;
 			class CustomAttributes
@@ -57743,9 +56763,9 @@ class Mission
 			type="";
 			a=1156.8705;
 			b=75;
-			angle=345.13443;
+			angle=345.1344;
 			id=200674;
-			atlOffset=13.821045;
+			atlOffset=13.821106;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57800,7 +56820,7 @@ class Mission
 			type="";
 			a=488.95459;
 			b=75;
-			angle=261.84375;
+			angle=261.84372;
 			id=200675;
 			atlOffset=12.938553;
 			class CustomAttributes
@@ -57914,7 +56934,7 @@ class Mission
 			type="";
 			a=892.7973;
 			b=75;
-			angle=122.73524;
+			angle=122.73523;
 			id=200677;
 			atlOffset=4.3010864;
 			class CustomAttributes
