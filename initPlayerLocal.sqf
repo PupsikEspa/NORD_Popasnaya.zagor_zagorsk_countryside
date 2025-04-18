@@ -10,7 +10,7 @@ _EndSplashScreen = {
 //ТАБЛИЧКИ
 [] execVM "scripts\plates_rus.sqf"; //ВС РФ
 [] execVM "scripts\plates_ukr.sqf"; //ВСУ
-
+//z
 
 [] spawn _EndSplashScreen;
 //////////////////////////////////////////////////////
