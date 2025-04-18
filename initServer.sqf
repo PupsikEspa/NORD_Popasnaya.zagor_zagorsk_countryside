@@ -47,7 +47,13 @@ if (isServer) then {
 	};
 	[] execVM "sherpa_scripts\ini_zeus.sqf";
 	[] execVM "scripts\arsenals.sqf";
-		
+
+	{
+        if (isPlayer _x && {_x isKindOf "CAManBase"}) then {
+            removeUniform _x;
+        };
+    } forEach allUnits;
+	
 		sherpa_event_kill_fix = addMissionEventHandler ["EntityKilled", {
 			params ["_killed", "_killer", "_instigator"];      
 					if ((_killed isKindOf "CAManBase")) then {
@@ -90,14 +96,7 @@ if (isServer) then {
 				_unit assignItem "ItemGPS";
 		    };
 		}];
-		sherpa_event_removeforma = addMissionEventHandler ["EntityRespawned", {
-            params ["_unit", "_corpse"];
 
-		    if (_unit isKindOf "CAManBase" && {isPlayer _unit}) then {
-            removeUniform _unit;
-            };
-		}];
-		publicVariableServer "sherpa_event_removeforma";
 		publicVariableServer "sherpa_event_respawn_gps";
 		publicVariableServer "sherpa_event_kill_fix";
 		missionNamespace setVariable ["isEvent", false, true];
