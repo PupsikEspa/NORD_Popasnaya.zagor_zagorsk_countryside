@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=108491;
+		nextID=108756;
 	};
 	class Camera
 	{
@@ -355,7 +355,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -381,7 +381,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -407,7 +407,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -55874,7 +55874,7 @@ class Mission
 			colorName="ColorBlue";
 			a=20;
 			b=302.32227;
-			angle=206.29503;
+			angle=206.29501;
 			id=200662;
 			atlOffset=-10.048004;
 			class CustomAttributes
@@ -56164,7 +56164,7 @@ class Mission
 			colorName="ColorCIV";
 			a=20;
 			b=614.05316;
-			angle=198.67273;
+			angle=198.67271;
 			id=200667;
 			atlOffset=7.4894867;
 			class CustomAttributes

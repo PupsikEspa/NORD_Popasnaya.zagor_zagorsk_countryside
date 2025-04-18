@@ -90,6 +90,14 @@ if (isServer) then {
 				_unit assignItem "ItemGPS";
 		    };
 		}];
+		sherpa_event_removeforma = addMissionEventHandler ["EntityRespawned", {
+            params ["_unit", "_corpse"];
+
+		    if (_unit isKindOf "CAManBase" && {isPlayer _unit}) then {
+            removeUniform _unit;
+            };
+		}];
+		publicVariableServer "sherpa_event_removeforma";
 		publicVariableServer "sherpa_event_respawn_gps";
 		publicVariableServer "sherpa_event_kill_fix";
 		missionNamespace setVariable ["isEvent", false, true];
